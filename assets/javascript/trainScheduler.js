@@ -32,7 +32,7 @@ var database = firebase.database();
         console.log(newTrain.firstTrain);
         console.log(newTrain.frequencyMins);
         //Clear the entry fields   
-        $("#trainName").val(" ");
+        $("#trainName").val("");
         $("#destination").val(" ");
         $("#firstTrainName").val(" ");
         $("#frequency").val(" ");
